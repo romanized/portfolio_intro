@@ -1,0 +1,260 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-weight: bolder;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-li {
+    margin: 0 10px;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-a:hover {
+    color: #c1cad5;
+}
+
+.nav-a.active {
+    background-color: #007bff;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px 0;
+    color: ghostwhite;
+}
+
+.profile-picture {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff; 
+    
+}
+
+.intro-text {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.active {
+    background-color: rgba(75, 98, 92, 0.721);
+    border-radius: 3em;
+    padding: auto;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border-style: ridge;
+}
+
+.github-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.github-logo {
+    width: 75px;
+    transition: filter 0.3s ease;
+}
+
+.github-link:hover {
+    transform: scale(1.10); 
+}
+
+.github-link:hover .github-logo {
+    filter: brightness(1.2); 
+}
+
+
+.image1:hover {
+    filter: brightness(1.1); 
+    transform: scale(1.02);
+
+}
+
+.links {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #00ff15;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    z-index: 9999;
+  }
+  
+  .close {
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+    .modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 575px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .close {
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+  button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
