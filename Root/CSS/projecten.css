@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Adjust according to your needs */
+    gap: 16px;
+    padding: 16px;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,12 +1,10 @@
 body {
-    /* Image URL */
-    background-image: url('/Root/MEDIA/background.jpg');
-    
-    /* Center and scale the image nicely */
+    background-image: url('../MEDIA/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(2px);
     height: 100vh;
     margin: 0;
+    z-index: 9999;
   }
