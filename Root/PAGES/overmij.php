@@ -25,11 +25,11 @@ if (!isset($_SESSION['loggedin'])) {
                 <li class="nav-li"><a href="../PAGES/projecten.php" class="nav-a">Projecten</a></li>
                 <li class="nav-li active"><a href="#" class="nav-a">Overmij</a></li>
                 <li class="nav-li"><a href="../PAGES/contact.php" class="nav-a">Contact</a></li>
-                <li>
+                <li class="nav-li">
               <?php if ($_SESSION['loggedin'] == true) { ?>
                 <a class="nav-a" href="admin.php">Admin</a>
                 <?php } else { ?>
-                  <a class="nav-a" href="./PAGES/login.php">Login</a>
+                  <a class="nav-a" href="../PAGES/login.php">Login</a>
                   <?php } ?>
             </li>
             </ul>
@@ -51,7 +51,7 @@ if (!isset($_SESSION['loggedin'])) {
                 <p>Hallo, ik ben Nebi Canlioglu, een 18-jarige Software Developer in opleiding aan het Grafisch Lyceum Rotterdam. Ik woon in het bruisende Rotterdam samen met mijn ouders en een jonger broertje.</p>
                 <p>Vanaf jonge leeftijd was ik al gefascineerd door coderen. Hoewel ik niet altijd actief bezig was met programmeren, heb ik door de jaren heen genoeg kennis opgedaan om mijn passie naar een professioneel niveau te tillen. Deze voortdurende interesse heeft mij gemotiveerd om een MBO 4 opleiding in Software Development te volgen.</p>
                 <p>Als ik niet achter mijn computer zit, ben ik waarschijnlijk aan het zwemmen, gymen, gamen of tijd doorbrengen met vrienden. En ja, een goede nachtrust is voor mij net zo belangrijk!</p>
-                <p>Voel je vrij om rond te kijken op mijn website en als je vragen hebt, aarzel dan niet om <a href="../HTML/contact.html" style="text-decoration: none;">contact</a> met me op te nemen.</p>
+                <p>Voel je vrij om rond te kijken op mijn website en als je vragen hebt, aarzel dan niet om <a href="../PHP/contact.php" style="text-decoration: none;">contact</a> met me op te nemen.</p>
             </div>
             </div>
             <hr style="margin-top: 30px;">

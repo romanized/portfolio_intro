@@ -46,7 +46,7 @@ if (!isset($_SESSION['loggedin'])) {
           Welkom op mijn pagina
         </h1>
         <p class="intro-text">
-          Hallo, mijn naam is Nebi Canlioglu en dit is mijn portfolio pagina. <br> <br>
+          Welkom op mijn portfolio pagina. Mijn naam is Nebi Canlioglu. <br> <br>
           Hier kan je <a class="links" href="./PAGES/contact.php">contact</a> met mij opnemen, een paar van mijn <a class="links" href="./PAGES/projecten.php">projecten</a> vinden en meer informatie <a class="links" href="./PAGES/overmij.php">overmij</a> vinden.
         </p>
       </section>

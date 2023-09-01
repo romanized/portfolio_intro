@@ -10,43 +10,30 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] === false) {
     exit;
 }
 
+// Removed the File Upload Code.
+
 // Fetch form values
 $projectName = $_POST['projectName'];
 $dateOfCreation = $_POST['dateOfCreation'];
 $description = $_POST['description'];
+$imageURL = $_POST['imageURL'];  // Added this line to get the image URL
+$link = $_POST['link'];
 
-// File upload path
-$target_dir = __DIR__ . "/MEDIA/"; // Specify your uploads directory path here (added a slash to make it an absolute path)
-$target_file = $target_dir . basename($_FILES["image"]["name"]);
+// SQL Insert logic with PDO
+$sql = "INSERT INTO Projecten (naam, image, datum, beschrijving, link) VALUES (:naam, :image, :datum, :beschrijving, :link)";
 
-// Check if the directory exists, if not then create one
-if (!file_exists($target_dir)) {
-    mkdir($target_dir, 0777, true);
-}
+$stmt = $conn->prepare($sql);
 
-// Attempt to move the uploaded file to server
-if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
-    echo "Het bestand ". basename($_FILES["image"]["name"]). " is geupload.";
+if ($stmt) {
+    $stmt->bindParam(':naam', $projectName, PDO::PARAM_STR);
+    $stmt->bindParam(':image', $imageURL, PDO::PARAM_STR);  // Changed this line to use $imageURL
+    $stmt->bindParam(':datum', $dateOfCreation, PDO::PARAM_STR);
+    $stmt->bindParam(':beschrijving', $description, PDO::PARAM_STR);
+    $stmt->bindParam(':link', $link, PDO::PARAM_STR);
 
-    // SQL Insert logic with PDO (changed bind_param to bindParam as you are using PDO)
-    $sql = "INSERT INTO Projecten (naam, image, datum, beschrijving) VALUES (:naam, :image, :datum, :beschrijving)";
-    
-    $stmt = $conn->prepare($sql);
+    $stmt->execute();
 
-    if ($stmt) {
-        $stmt->bindParam(':naam', $projectName, PDO::PARAM_STR);
-        $stmt->bindParam(':image', $target_file, PDO::PARAM_STR);
-        $stmt->bindParam(':datum', $dateOfCreation, PDO::PARAM_STR);
-        $stmt->bindParam(':beschrijving', $description, PDO::PARAM_STR);
-
-        $stmt->execute();
-        
-        echo "<br> Nieuw project is toegevoegd <a href='../PAGES/projecten.php'>Projecten</a>";
-    } else {
-        echo "Error preparing SQL statement";
-    }
-    
+    echo "<br> Nieuw project is toegevoegd <a href='../PAGES/projecten.php'>Projecten</a>";
 } else {
-    echo "Sorry, there was an error uploading your file.";
+    echo "Error preparing SQL statement <br> Probeer het later nog een keer";
 }
-?>

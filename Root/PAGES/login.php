@@ -35,14 +35,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     Header("Location: login.php?error");
   }
 }
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,7 +46,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   <link rel="stylesheet" href="../CSS/login.css">
   <link rel="shortcut icon" href="../MEDIA/login.png" type="image/x-icon">
 </head>
-
 <body>
   <div class="centered-container">
     <form method="post" class="form">
@@ -73,7 +68,4 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
       </div>
     </form>
   </div>
-
-
-
 </html>

@@ -21,11 +21,11 @@ require("../PHP/contact.php");
           <li class="nav-li"><a href="../PAGES/projecten.php" class="nav-a">Projecten</a></li>
           <li class="nav-li"><a href="../PAGES/overmij.php" class="nav-a">Overmij</a></li>
           <li class="nav-li active"><a href="#" class="nav-a">Contact</a></li>
-          <li>
+          <li class="nav-li">
               <?php if ($_SESSION['loggedin'] == true) { ?>
                 <a class="nav-a" href="admin.php">Admin</a>
                 <?php } else { ?>
-                  <a class="nav-a" href="./PAGES/login.php">Login</a>
+                  <a class="nav-a" href="../PAGES/login.php">Login</a>
                   <?php } ?>
             </li>
         </ul>
@@ -35,7 +35,7 @@ require("../PHP/contact.php");
       <div class="main-grid">
       <div class="text-content">
         <h1>Contact</h1>
-        <p>Heb je vragen of wil je contact met mij opnemen kan je dat hier doen!</p>
+        <p>Heb je vragen of wil je contact met mij opnemen kan je dat gerust hier doen</p>
         <hr class="style-five">
         <h1 style="font-size: 24px;">Email | Telefoonnummer</h1>
         <p><strong>ytspace1@gmail.com | +31 6 15506171</strong></p>

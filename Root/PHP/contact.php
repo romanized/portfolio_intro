@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 '$bedrijfsnaam',
                 '$bericht')";
             if ($db_connection->query($insertsql) == TRUE) {
-                header("Location: ../index.html");
+                header("Location: ../index.php");
             } else {
                 echo "Error :" . $insertsql . "<br>" . $db_connection->error;
             }

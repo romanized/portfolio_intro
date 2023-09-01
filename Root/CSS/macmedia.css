@@ -1,0 +1,50 @@
+body {
+    overflow-y: hidden;
+}
+
+.nav-li {
+    margin-top: 8px;
+}
+
+.project-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project-image {
+    max-width: 100%;
+    width: 750px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 9vw;
+    margin-top: 1vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project-link {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    background-color: #0056b3;
+}

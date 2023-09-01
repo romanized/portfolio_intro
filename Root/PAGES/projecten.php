@@ -12,22 +12,22 @@ if (!isset($_SESSION['loggedin'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projecten</title>
-    <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/projecten.css">
+    <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="shortcut icon" href="../MEDIA/favicon2.png" type="image/x-icon" />
   </head>
   <header>
     <nav class="navbar">
         <ul>
           <li class="nav-li"><a href="../index.php" class="nav-a">Home</a></li>
-          <li class="nav-li active"><a href="#" class="nav-a">Projecten</a></li>
+          <li class="nav-li active"><a href="../PAGES/projecten.php" class="nav-a">Projecten</a></li>
           <li class="nav-li"><a href="../PAGES/overmij.php" class="nav-a">Overmij</a></li>
           <li class="nav-li"><a href="../PAGES/contact.php" class="nav-a">Contact</a></li>
-          <li>
+          <li class="nav-li">
               <?php if ($_SESSION['loggedin'] == true) { ?>
                 <a class="nav-a" href="admin.php">Admin</a>
                 <?php } else { ?>
-                  <a class="nav-a" href="login.php">Login</a>
+                  <a class="nav-a" href="../PAGES/login.php">Login</a>
                   <?php } ?>
             </li>
       </ul>
@@ -36,22 +36,21 @@ if (!isset($_SESSION['loggedin'])) {
     <main>
     <div class="grid-container">
     <?php
-    require("../PHP/require.php"); // Database connection
-
-    // Fetch all project entries from the database
+    require("../PHP/require.php");
     $sql = "SELECT * FROM Projecten";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    // Display each project in a grid
     foreach($projects as $project) {
+        echo '<a target="_blank" class="linkse" href="' . $project["link"] . '"style="text-decoration: none; color: black;" >';
         echo '<div class="grid-item">';
-        echo '<h2>' . htmlspecialchars($project['naam']) . '</h2>';
-        echo '<img src="' . htmlspecialchars($project['image']) . '" alt="Project Image" width="300" height="200">';
+        echo '<h2 style="color:purple ;">' . htmlspecialchars($project['naam']) . '</h2>';
         echo '<p>' . htmlspecialchars($project['beschrijving']) . '</p>';
         echo '<p>Datum: ' . htmlspecialchars($project['datum']) . '</p>';
+        echo '<img src="' . $project['image'] . '" alt="Project Image" width="475" height="250">';
         echo '</div>';
+        echo '</a>';
     }
     ?>
 </div>

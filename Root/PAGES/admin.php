@@ -23,7 +23,7 @@ if (!isset($_SESSION['loggedin'])) {
           <li class="nav-li"><a href="../PAGES/projecten.php" class="nav-a">Projecten</a></li>
           <li class="nav-li"><a href="../PAGES/overmij.php" class="nav-a">Overmij</a></li>
           <li class="nav-li"><a href="../PAGES/contact.php" class="nav-a">Contact</a></li>
-          <li>
+          <li class="nav-li">
               <?php if ($_SESSION['loggedin'] == true) { ?>
                 <a class="nav-a active" href="admin.php">Admin</a>
                 <?php } else { ?>
@@ -36,22 +36,24 @@ if (!isset($_SESSION['loggedin'])) {
   </header>
     <main class="admin">
     <section class="admin-section insert">
-        <h2 class="admin-title">Insert Project</h2>
-            <h2>Insert Project</h2>
+        <h1 class="admin-title">Project toevoegen</h1>
             <form action="../PHP/insert_project.php" method="post" enctype="multipart/form-data">
-                <label for="projectName">Project Name:</label>
-                <input type="text" id="projectName" name="projectName" required>
+                <label for="projectName">Project Naam:</label>
+                <input type="text" id="projectName" name="projectName" placeholder="Naam van project" required>
 
-                <label for="description">Description:</label>
-                <textarea id="description" name="description" rows="4" required></textarea>
+                <label for="description">Beschrijving:</label>
+                <textarea id="description" name="description" rows="4" placeholder="In dit project..." required></textarea>
 
-                <label for="dateOfCreation">Date of Creation:</label>
+                <label for="dateOfCreation">Datum:</label>
                 <input type="date" id="dateOfCreation" name="dateOfCreation" required>
 
-                <label for="image">Upload Image:</label>
-                <input type="file" id="image" name="image" accept="image/*" required>
+                <label for="image">Foto:</label>
+                <input type="text" name="imageURL" placeholder="Foto URL">
 
-                <input type="submit" value="Post Project">
+                <label for="updatedDate">GitHub / link naar website</label>
+                <input type="text" id="updatedDate" name="link">
+
+                <input type="submit" value="Project Toevoegen">
             </form>
         </section>
 
@@ -89,6 +91,9 @@ if (!isset($_SESSION['loggedin'])) {
 
                 <label for="updatedDate">Date of Creation:</label>
                 <input type="date" id="updatedDate" name="updatedDate">
+
+                <label for="updatedDate">Link</label>
+                <input type="date" id="updatedDate" name="link">
 
                 <input type="submit" value="Update Project">
             </form>
