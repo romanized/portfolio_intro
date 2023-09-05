@@ -9,6 +9,7 @@ require("../PHP/contact.php");
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/background.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="shortcut icon" href="../MEDIA/favicon2.png" type="image/x-icon" />
     <link rel="stylesheet" href="../CSS/contact.css">
@@ -35,9 +36,9 @@ require("../PHP/contact.php");
       <div class="main-grid">
       <div class="text-content">
         <h1>Contact</h1>
-        <p>Heb je vragen of wil je contact met mij opnemen kan je dat gerust hier doen</p>
+        <p style="font-size: 18px;">Heb je vragen of wil je contact met mij opnemen kan je dat gerust hier doen</p>
         <hr class="style-five">
-        <h1 style="font-size: 24px;">Email | Telefoonnummer</h1>
+        <h1 style="font-size: 30px;">Email | Telefoonnummer</h1>
         <p><strong>ytspace1@gmail.com | +31 6 15506171</strong></p>
       </div>
       <Section class="bericht">

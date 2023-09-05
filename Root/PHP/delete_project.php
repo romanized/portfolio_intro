@@ -1,15 +1,23 @@
 <?php
-require("../PHP/require.php");
+require("require.php");
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $projectId = $_POST['projectToDelete'];
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] === false) {
+    header("Location: login.php");
+    exit;
+}
 
-    $sql = "DELETE FROM Projecten WHERE ID = '$projectId'";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $projectID = $_POST['projectID'];
+    $sql = "DELETE FROM Projecten WHERE ID = :id";
+    $stmt = $conn->prepare($sql);
 
-    if ($conn->query($sql) === TRUE) {
-        header('Location: admin.php');
+    if ($stmt) {
+        $stmt->bindParam(':id', $projectID, PDO::PARAM_INT);
+        $stmt->execute();
+        header("Location: ../PAGES/projecten.php");
+        exit;
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error preparing SQL statement <br> Probeer het later nog een keer";
     }
 }
 ?>

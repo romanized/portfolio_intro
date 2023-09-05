@@ -12,8 +12,9 @@ if (!isset($_SESSION['loggedin'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Panel</title>
+    <link rel="stylesheet" href="../CSS/background.css" />
+    <link rel="stylesheet" href="../CSS/admin.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
-    <link rel="stylesheet" href="../CSS/admin.css">
     <link rel="shortcut icon" href="../MEDIA/admin.png" type="image/x-icon" />
   </head>
   <header>
@@ -53,51 +54,71 @@ if (!isset($_SESSION['loggedin'])) {
                 <label for="updatedDate">GitHub / link naar website</label>
                 <input type="text" id="updatedDate" name="link">
 
-                <input type="submit" value="Project Toevoegen">
-            </form>
-        </section>
-
-        <section class="admin-section delete">
-        <h2 class="admin-title">Delete Project</h2>
-            <form action="delete_project.php" method="post">
-                <label for="projectToDelete">Select Project:</label>
-                <select id="projectToDelete" name="projectToDelete">
-                <?php
-                $sql = "SELECT ID, naam FROM Projecten";
-                $result = $conn->query($sql);
-                
-                while($row = $result->fetch_assoc()) {
-                    echo "<option value='". $row["ID"] ."'>" . $row["naam"] . "</option>";
-                }
-                ?>
-            </select>
-                <input type="submit" value="Delete Project">
+                <input type="submit" value="Project toevoegen">
             </form>
         </section>
 
         <section class="admin-section update">
-        <h2 class="admin-title">Update Project</h2>
-            <form action="update_project.php" method="post">
-                <label for="projectToUpdate">Select Project:</label>
-                <select id="projectToUpdate" name="projectToUpdate">
-                    <!-- Option values will be populated here later -->
-                </select>
+    <h1 class="admin-title">Project bewerken</h1>
+    <form id="updateForm" action="../PHP/update_project.php" method="post" enctype="multipart/form-data">
+        <label for="projectSelector">Selecteer project:</label>
+        <select id="projectSelector" name="projectID">
+            <?php
+            $sql = "SELECT * FROM Projecten";
+            $stmt = $conn->prepare($sql);
+            $stmt->execute();
+            $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            
+            foreach($projects as $project) {
+                echo '<option value="' . $project['ID'] . '">' . htmlspecialchars($project['naam']) . '</option>';
+            }
+            ?>
+        </select>
 
-                <label for="updatedName">Project Name:</label>
-                <input type="text" id="updatedName" name="updatedName">
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let projectSelector = document.getElementById('projectSelector');
+    projectSelector.addEventListener('change', function() {
+      let selectedProjectID = projectSelector.value;
+      let xhr = new XMLHttpRequest();
+      xhr.open('GET', '../PHP/get_project_details.php?ID=' + selectedProjectID, true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          let project = JSON.parse(xhr.responseText);
+          document.getElementById('editProjectName').value = project.naam;
+          document.getElementById('editDescription').value = project.beschrijving;
+          document.getElementById('editDateOfCreation').value = project.datum;
+          document.getElementById('editImage').value = project.image;
+          document.getElementById('editLink').value = project.link;
+        }
+      };
+      xhr.send();
+    });
+  });
+</script>
 
-                <label for="updatedDescription">Description:</label>
-                <textarea id="updatedDescription" name="updatedDescription" rows="4"></textarea>
 
-                <label for="updatedDate">Date of Creation:</label>
-                <input type="date" id="updatedDate" name="updatedDate">
+<form id="editProjectForm">
+        <label for="editProjectName">Project Naam:</label>
+        <input type="text" id="editProjectName" name="editProjectName" placeholder="Naam van project">
 
-                <label for="updatedDate">Link</label>
-                <input type="date" id="updatedDate" name="link">
+        <label for="editDescription">Beschrijving:</label>
+        <textarea id="editDescription" name="editDescription" rows="4" placeholder="In dit project..."></textarea>
 
-                <input type="submit" value="Update Project">
-            </form>
-        </section>
+        <label for="editDateOfCreation">Datum:</label>
+        <input type="date" id="editDateOfCreation" name="editDateOfCreation">
+
+        <label for="editImage">Foto:</label>
+        <input type="text" id="editImage" name="editImageURL" placeholder="Foto URL">
+
+        <label for="editLink">GitHub / link naar website</label>
+        <input type="text" id="editLink" name="editLink">
+
+        <input type="submit" id="editProjectButton" value="Project bewerken">
+    </form>
+</section>
+
+
     </main>
     <script src="./Root/JS/app.js"></script>
     <a href="https://github.com/romanized" target="_blank" class="github-link">

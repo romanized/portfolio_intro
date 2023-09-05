@@ -44,9 +44,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="../CSS/login.css">
+  <link rel="stylesheet" href="../CSS/style.css">
   <link rel="shortcut icon" href="../MEDIA/login.png" type="image/x-icon">
 </head>
 <body>
+
+
   <div class="centered-container">
     <form method="post" class="form">
       <p id="heading">Login</p>
@@ -67,5 +70,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         <br>
       </div>
     </form>
+    <a href="../index.php" class="github-link">
+        <img src="../MEDIA/home.png" alt="GitHub Logo" class="github-logo" />
+    </a>
   </div>
 </html>

@@ -1,0 +1,10 @@
+body {
+    background-image: url('../MEDIA/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    height: 130vh;
+    margin: 0;
+    z-index: 9999;
+  }

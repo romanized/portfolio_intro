@@ -97,6 +97,7 @@
       
       .text-content {
         text-align: center;
+        color: #FFFFAA;
       }
       
       .bericht {
@@ -105,10 +106,10 @@
 
       hr.style-five {
         border: 0;
-        height: 0; /* Firefox... */
-        box-shadow: 0 0 10px 1px black;
-        width: 58%;
+        height: 0; 
+        box-shadow: 0 0 4px 1px #fff;
+        width: 62%;
     }
-    hr.style-five:after {  /* Not really supposed to work, but does */
-        content: "\00a0";  /* Prevent margin collapse */
+    hr.style-five:after {  
+        content: "\00a0"; 
     }

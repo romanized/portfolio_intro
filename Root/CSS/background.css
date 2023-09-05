@@ -1,9 +1,9 @@
 body {
-    background-image: url('../MEDIA/background.jpg');
+    background-image: url('../MEDIA/background6.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     height: 100vh;
     margin: 0;
     z-index: 9999;

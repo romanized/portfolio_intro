@@ -46,13 +46,15 @@ if (!isset($_SESSION['loggedin'])) {
           Welkom op mijn pagina
         </h1>
         <p class="intro-text">
-          Welkom op mijn portfolio pagina. Mijn naam is Nebi Canlioglu. <br> <br>
-          Hier kan je <a class="links" href="./PAGES/contact.php">contact</a> met mij opnemen, een paar van mijn <a class="links" href="./PAGES/projecten.php">projecten</a> vinden en meer informatie <a class="links" href="./PAGES/overmij.php">overmij</a> vinden.
+        Mijn naam is Nebi Canlioglu. Kijk gerust rond in mijn website. <br> <br>
+          Op mijn pagina kan je <a class="links" href="./PAGES/contact.php">contact</a> met mij opnemen, mijn <a class="links" href="./PAGES/projecten.php">projecten</a> bekijken en meer informatie <a class="links" href="./PAGES/overmij.php">overmij</a> vinden.
         </p>
       </section>
     </main>
     <a href="https://github.com/romanized" target="_blank" class="github-link">
       <img src="../Root/MEDIA/GB3.jpeg" alt="GitHub Logo" class="github-logo" />
-    </a>  
+    </a> 
+    <div>
+  </div>
   </body>
 </html>

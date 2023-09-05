@@ -12,6 +12,7 @@ if (!isset($_SESSION['loggedin'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Overmij</title>
+    <link rel="stylesheet" href="../CSS/background.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/overmij.css" />
     <link rel="shortcut icon" href="../MEDIA/favicon2.png" type="image/x-icon" />
@@ -25,11 +26,11 @@ if (!isset($_SESSION['loggedin'])) {
                 <li class="nav-li"><a href="../PAGES/projecten.php" class="nav-a">Projecten</a></li>
                 <li class="nav-li active"><a href="#" class="nav-a">Overmij</a></li>
                 <li class="nav-li"><a href="../PAGES/contact.php" class="nav-a">Contact</a></li>
-                <li class="nav-li">
+          <li class="nav-li">
               <?php if ($_SESSION['loggedin'] == true) { ?>
                 <a class="nav-a" href="admin.php">Admin</a>
                 <?php } else { ?>
-                  <a class="nav-a" href="../PAGES/login.php">Login</a>
+                  <a class="nav-a" href="./PAGES/login.php">Login</a>
                   <?php } ?>
             </li>
             </ul>
@@ -37,7 +38,7 @@ if (!isset($_SESSION['loggedin'])) {
     </header>
     <main>
         <section class="overmij" style="margin-top: 20px;">
-            <h1>Overmij</h1>
+            <h1 class="tekst-overmij">Overmij</h1>
             <button id="myBtn" class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
@@ -55,7 +56,7 @@ if (!isset($_SESSION['loggedin'])) {
             </div>
             </div>
             <hr style="margin-top: 30px;">
-            <h2 class="MV1">Mijn Vaardigheden</h2>
+            <h2 class="MV1 tekst-overmij">Mijn Vaardigheden</h2>
             <ul class="vaardigheden">
                 <a target="_blank" href="https://www.w3schools.com/html/html_intro.asp"><li>HTML</li></a>
                 <a target="_blank" href="https://www.w3schools.com/css/css_intro.asp"><li>CSS</li></a>
@@ -67,18 +68,13 @@ if (!isset($_SESSION['loggedin'])) {
         </section>
         <hr>
         <section class="fav">
-            <h2>Beste Artiest</h2>
+            <h2 class="tekst-overmij">Beste Artiest</h2>
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1cdqNRXIRrvT4HnApj6yw6?utm_source=generator&theme=0" width="35%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <!-- <video width="560" height="315" poster="../MEDIA/opium2.webp" controls>
-                <source src="../MEDIA/ILCK.mp4" type="video/mp4">
-                Uw browser kan de video niet inladen.
-              </video> -->
         </section>
         <hr>
         <section class="cv-section">
-            <h2>Mijn CV</h2>
-            <p>Klik op de knop hieronder om mijn CV te downloaden.</p>
-            <a href="/Root/MEDIA/CVImage.jpg" download class="cv-download-btn">Download CV</a>
+            <h2 class="tekst-overmij">Mijn CV</h2>
+            <a href="../MEDIA/CVImage.jpg" download class="cv-download-btn">Download CV</a>
         </section>
     </main>
     <a href="https://github.com/romanized" target="_blank" class="github-link">

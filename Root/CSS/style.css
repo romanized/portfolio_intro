@@ -14,7 +14,7 @@ img {
 }
 
 header {
-    background-color: #343a40;
+    background-color: transparent;
     padding: 10px 0;
 }
 
@@ -57,14 +57,14 @@ header {
     height: 330px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #007bff; 
+    border: 2px solid #FFFFAA; 
     
 }
 
 .intro-text {
     max-width: 600px;
     margin: 20px auto;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .active {
@@ -107,7 +107,7 @@ header {
 .links {
     text-decoration: none;
     font-weight: bolder;
-    color: #00ff15;
+    color: #FFFFAA;
 }
 
 
@@ -239,7 +239,7 @@ header {
     bottom: 0;
     padding: 0.75rem 0;
     margin: 0 0 0 1.85rem;
-    color: #282936;
+    color: #DDDDDD;
     font-weight: 700;
     line-height: 1.6;
     text-align: center;
