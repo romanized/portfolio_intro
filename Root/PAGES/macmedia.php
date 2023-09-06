@@ -9,6 +9,7 @@ require("../PHP/require.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/background5.css" />
     <link rel="stylesheet" href="../CSS/macmedia.css" />
     <link rel="shortcut icon" href="../MEDIA/favicon2.png" type="image/x-icon" />
     <script src="../JS/app.js" defer></script>
@@ -30,7 +31,7 @@ require("../PHP/require.php");
         </ul>
         <br>
     </nav>
-
+<main>
     <section class="project-section">
         <div class="container">
             <h1>Over MacMedia</h1>
@@ -46,7 +47,7 @@ require("../PHP/require.php");
             <img src="https://cdn.discordapp.com/attachments/480048061893181442/1147255671159525376/image.png" alt="Project Image" class="project-image">
         </div>
     </section>
-
+    </main>
     <a href="https://github.com/romanized" target="_blank" class="github-link">
       <img src="../MEDIA/GB3.jpeg" alt="GitHub Logo" class="github-logo" />
   </a>

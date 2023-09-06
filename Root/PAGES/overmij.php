@@ -12,11 +12,12 @@ if (!isset($_SESSION['loggedin'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Overmij</title>
-    <link rel="stylesheet" href="../CSS/background.css" />
+    <link rel="stylesheet" href="../CSS/background5.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/overmij.css" />
     <link rel="shortcut icon" href="../MEDIA/favicon2.png" type="image/x-icon" />
     <script src="../JS/app.js" defer></script>
+    <script defer src="../JS/overmij.js"></script>
 </head>
 <body>
     <header>
@@ -36,7 +37,7 @@ if (!isset($_SESSION['loggedin'])) {
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="swup" class="transition-fade">
         <section class="overmij" style="margin-top: 20px;">
             <h1 class="tekst-overmij">Overmij</h1>
             <button id="myBtn" class="learn-more">
@@ -52,7 +53,7 @@ if (!isset($_SESSION['loggedin'])) {
                 <p>Hallo, ik ben Nebi Canlioglu, een 18-jarige Software Developer in opleiding aan het Grafisch Lyceum Rotterdam. Ik woon in het bruisende Rotterdam samen met mijn ouders en een jonger broertje.</p>
                 <p>Vanaf jonge leeftijd was ik al gefascineerd door coderen. Hoewel ik niet altijd actief bezig was met programmeren, heb ik door de jaren heen genoeg kennis opgedaan om mijn passie naar een professioneel niveau te tillen. Deze voortdurende interesse heeft mij gemotiveerd om een MBO 4 opleiding in Software Development te volgen.</p>
                 <p>Als ik niet achter mijn computer zit, ben ik waarschijnlijk aan het zwemmen, gymen, gamen of tijd doorbrengen met vrienden. En ja, een goede nachtrust is voor mij net zo belangrijk!</p>
-                <p>Voel je vrij om rond te kijken op mijn website en als je vragen hebt, aarzel dan niet om <a href="../PHP/contact.php" style="text-decoration: none;">contact</a> met me op te nemen.</p>
+                <p>Voel je vrij om rond te kijken op mijn website en als je vragen hebt, aarzel dan niet om <a href="../PAGES/contact.php" style="text-decoration: none;">contact</a> met me op te nemen.</p>
             </div>
             </div>
             <hr style="margin-top: 30px;">
@@ -68,8 +69,9 @@ if (!isset($_SESSION['loggedin'])) {
         </section>
         <hr>
         <section class="fav">
-            <h2 class="tekst-overmij">Beste Artiest</h2>
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1cdqNRXIRrvT4HnApj6yw6?utm_source=generator&theme=0" width="35%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h2 class="tekst-overmij">Een deel van mijn muziek smaak</h2>
+        <iframe id="spotifyFrame" style="border-radius:12px" src="https://open.spotify.com/embed/track/1cdqNRXIRrvT4HnApj6yw6?utm_source=generator&theme=0" width="35%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <button id="nextTrackBtn" class="next-track-btn">&#9654;</button>
         </section>
         <hr>
         <section class="cv-section">
@@ -81,5 +83,4 @@ if (!isset($_SESSION['loggedin'])) {
         <img src="../MEDIA/GB3.jpeg" alt="GitHub Logo" class="github-logo" />
     </a>
 </body>
-<script src="./Root/JS/app.js" defer></script>
 </html>

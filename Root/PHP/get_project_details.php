@@ -16,6 +16,6 @@ if ($stmt->execute()) {
     $project = $stmt->fetch(PDO::FETCH_ASSOC);
     echo json_encode($project);
 } else {
-    echo json_encode(['error' => 'Could not fetch project']);
+    echo json_encode(['error' => 'Kan project niet erbij halen']);
 }
 ?>

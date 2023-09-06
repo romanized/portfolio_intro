@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../PAGES/projecten.php");
         exit;
     } else {
-        echo "Error preparing SQL statement <br> Probeer het later nog een keer";
+        echo "Error bij het voorbereiden van de SQL statement <br> Probeer het later nog een keer";
     }
 }
 ?>

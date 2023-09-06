@@ -12,10 +12,10 @@ if (!isset($_SESSION['loggedin'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="../Root/CSS/background.css" />
+    <link rel="stylesheet" href="./CSS/background5.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="shortcut icon" href="../Root/MEDIA/favicon2.png" type="image/x-icon" />
-    <script src="../Root/JS/app.js" defer></script>
+    <script src="./JS/app.js" defer></script>
   </head>
   <header>
     <nav class="navbar">
@@ -34,14 +34,14 @@ if (!isset($_SESSION['loggedin'])) {
         </ul>
     </nav>
   </header>
-    <main>
+    <main id="swup" class="transition-fade">
       <section class="intro-section">
-        <img
-          src="../Root/MEDIA/me.jpg"
+        <a target="_blank" href="https://github.com/romanized"</a><img
+          src="./MEDIA/me.jpg"
           alt="Nebi"
           class="profile-picture image1"
           width="300px"
-        />
+        /></a>
         <h1 class="intro-title">
           Welkom op mijn pagina
         </h1>

@@ -9,7 +9,7 @@ require("../PHP/contact.php");
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="../CSS/background.css" />
+    <link rel="stylesheet" href="../CSS/background5.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="shortcut icon" href="../MEDIA/favicon2.png" type="image/x-icon" />
     <link rel="stylesheet" href="../CSS/contact.css">
@@ -32,7 +32,7 @@ require("../PHP/contact.php");
         </ul>
     </nav>
   </header>
-    <main>    
+    <main id="swup" class="transition-fade">
       <div class="main-grid">
       <div class="text-content">
         <h1>Contact</h1>

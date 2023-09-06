@@ -12,10 +12,11 @@ if (!isset($_SESSION['loggedin'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Panel</title>
-    <link rel="stylesheet" href="../CSS/background.css" />
+    <link rel="stylesheet" href="../CSS/background5.css" />
     <link rel="stylesheet" href="../CSS/admin.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="shortcut icon" href="../MEDIA/admin.png" type="image/x-icon" />
+    <script src="../JS/app.js"></script>
   </head>
   <header>
     <nav class="navbar">
@@ -51,7 +52,7 @@ if (!isset($_SESSION['loggedin'])) {
                 <label for="image">Foto:</label>
                 <input type="text" name="imageURL" placeholder="Foto URL">
 
-                <label for="updatedDate">GitHub / link naar website</label>
+                <label for="updatedDate">GitHub / link naar website:</label>
                 <input type="text" id="updatedDate" name="link">
 
                 <input type="submit" value="Project toevoegen">
@@ -117,10 +118,7 @@ if (!isset($_SESSION['loggedin'])) {
         <input type="submit" id="editProjectButton" value="Project bewerken">
     </form>
 </section>
-
-
     </main>
-    <script src="./Root/JS/app.js"></script>
     <a href="https://github.com/romanized" target="_blank" class="github-link">
       <img src="../MEDIA/GB3.jpeg" alt="GitHub Logo" class="github-logo" />
   </a>

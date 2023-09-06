@@ -12,10 +12,11 @@ if (!isset($_SESSION['loggedin'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projecten</title>
-    <link rel="stylesheet" href="../CSS/background2.css " />
+    <link rel="stylesheet" href="../CSS/background3.css " />
     <link rel="stylesheet" href="../CSS/projecten.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="shortcut icon" href="../MEDIA/favicon2.png" type="image/x-icon" />
+    <script src="../JS/app.js"></script>
   </head>
   <header>
     <nav class="navbar">
@@ -34,7 +35,7 @@ if (!isset($_SESSION['loggedin'])) {
       </ul>
     </nav>
   </header>
-  <main>
+  <main id="swup" class="transition-fade">
   <div class="grid-container">
   <?php
   require("../PHP/require.php");
@@ -64,9 +65,6 @@ if (!isset($_SESSION['loggedin'])) {
   ?>
   </div>
 </main>
-
-
-    <script src="./Root/JS/app.js"></script>
     <a href="https://github.com/romanized" target="_blank" class="github-link">
       <img src="../MEDIA/GB3.jpeg" alt="GitHub Logo" class="github-logo" />
   </a>

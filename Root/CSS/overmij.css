@@ -1,68 +1,66 @@
-.overmij, .fav, .intro-video, .cv-section {
-    padding: 30px 0;
-    text-align: center;
-}
+  .overmij, .fav, .cv-section {
+      padding: 30px 0;
+      text-align: center;
+  }
 
-.cv-section {
-    padding: 0px;
-}
+  .cv-section {
+      padding: 0px;
+  }
 
-.vaardigheden {
-    list-style-type: none;
-    color: #fff;
-    padding: 0;
-}
+  .vaardigheden {
+      list-style-type: none;
+      color: #fff;
+      padding: 0;
+  }
 
-.vaardigheden li {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 5px 15px;
-    background-color:   #FFFFAA;
-    border: 1px solid #343a40;
-    border-radius: 5px;
-    transform: scale(1.1);
-    transition: all 0.7s ease-out;
-}
+  .vaardigheden li {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 5px 15px;
+      background-color:   #FFFFAA;
+      border: 1px solid #343a40;
+      border-radius: 5px;
+      transform: scale(1.1);
+      transition: all 0.7s ease-out;
+  }
 
-.vaardigheden li:hover {
-    transform: scale(1.25);
-    color: #241212;
-    cursor:grab;
-    background-color:#cece6e;
-}
+  .vaardigheden li:hover {
+      transform: scale(1.25);
+      color: #241212;
+      cursor:grab;
+      background-color:#cece6e;
+  }
 
-.cv-download-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+  .cv-download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
 
-.cv-download-btn:hover {
-    background-color: #0056b3;
-}
+  .cv-download-btn:hover {
+      background-color: #0056b3;
+  }
 
 
-hr {
-    width: 40vw;
-    color: black;
-}
+  hr {
+      width: 40vw;
+      color: black;
+  }
 
-.close:hover {
-    transform: scale(1.15);
-    color: #22262a;
-}
-
+  .close:hover {
+      transform: scale(1.15);
+      color: #22262a;
+  }
 
   a {
     text-decoration: none;
     color: black;
     font-weight: 550;
   }
-
   
   .MV1 {
     padding-top: 5px;
@@ -75,3 +73,12 @@ hr {
   .klein-overmij {
     color: #DDDDDD;
   }
+
+  .next-track-btn {
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #FFFFAA; 
+}
