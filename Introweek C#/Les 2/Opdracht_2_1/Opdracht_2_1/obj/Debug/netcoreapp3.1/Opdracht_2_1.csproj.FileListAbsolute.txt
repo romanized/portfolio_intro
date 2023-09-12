@@ -1,0 +1,109 @@
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.deps.json
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.runtimeconfig.json
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.runtimeconfig.dev.json
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.dll
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.pdb
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.Views.dll
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.Views.pdb
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csprojAssemblyReference.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.AssemblyInfoInputs.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.AssemblyInfo.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csproj.CoreCompileInputs.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.MvcApplicationPartsAssemblyInfo.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorAssemblyInfo.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorAssemblyInfo.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/Opdracht_2_1.StaticWebAssets.Manifest.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/Opdracht_2_1.StaticWebAssets.xml
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/scopedcss/bundle/Opdracht_2_1.styles.css
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.TagHelpers.input.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.TagHelpers.output.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorCoreGenerate.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorTargetAssemblyInfo.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorTargetAssemblyInfo.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.Views.pdb
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.dll
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.pdb
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.genruntimeconfig.cache
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csproj.CopyComplete
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Pagina2.cshtml.g.cs
+/Users/segaar/Projects/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Pagina3.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.dll
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.pdb
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csproj.AssemblyReference.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.AssemblyInfoInputs.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.AssemblyInfo.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csproj.CoreCompileInputs.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorAssemblyInfo.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorAssemblyInfo.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/Opdracht_2_1.StaticWebAssets.Manifest.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/Opdracht_2_1.StaticWebAssets.Pack.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.Opdracht_2_1.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.build.Opdracht_2_1.props
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildMultiTargeting.Opdracht_2_1.props
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildTransitive.Opdracht_2_1.props
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.TagHelpers.input.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.TagHelpers.output.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorCoreGenerate.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Pagina2.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Pagina3.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorTargetAssemblyInfo.cache
+C:/Users/lol/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorTargetAssemblyInfo.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csproj.AssemblyReference.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.AssemblyInfoInputs.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.AssemblyInfo.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csproj.CoreCompileInputs.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.MvcApplicationPartsAssemblyInfo.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorAssemblyInfo.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorAssemblyInfo.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/Opdracht_2_1.StaticWebAssets.Manifest.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/Opdracht_2_1.StaticWebAssets.Pack.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.Opdracht_2_1.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.build.Opdracht_2_1.props
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildMultiTargeting.Opdracht_2_1.props
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildTransitive.Opdracht_2_1.props
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.TagHelpers.input.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.TagHelpers.output.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorCoreGenerate.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Pagina2.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Pagina3.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorTargetAssemblyInfo.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.RazorTargetAssemblyInfo.cs
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.dll
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.pdb
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.StaticWebAssets.xml
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.deps.json
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.runtimeconfig.json
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.runtimeconfig.dev.json
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.dll
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.pdb
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.Views.dll
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/bin/Debug/netcoreapp3.1/Opdracht_2_1.Views.pdb
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.Views.pdb
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.genruntimeconfig.cache
+/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp3.1/Opdracht_2_1.csproj.CopyComplete

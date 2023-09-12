@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{9594AE07-BF4E-4739-8487-07029D56217B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Opdracht_2_1/Pages/Pagina3.cshtml.cs">
+    <Files>
+      <File FileName="Opdracht_2_1/Pages/Shared/_Layout.cshtml" Line="18" Column="4" />
+      <File FileName="Opdracht_2_1/Pages/Index.cshtml" Line="12" Column="39" />
+      <File FileName="Opdracht_2_1/wwwroot/css/site.css" />
+      <File FileName="Opdracht_2_1/Pages/Pagina2.cshtml" Line="7" Column="46" />
+      <File FileName="Opdracht_2_1/Pages/Pagina2.cshtml.cs" Line="19" Column="55" />
+      <File FileName="Opdracht_2_1/Pages/Index.cshtml.cs" />
+      <File FileName="Opdracht_2_1/Pages/Pagina3.cshtml" Line="10" Column="4" />
+      <File FileName="Opdracht_2_1/Pages/Pagina3.cshtml.cs" Line="21" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Opdracht_2_1" expanded="True">
+            <Node name="Opdracht_2_1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" expanded="True" />
+                <Node name="Pagina2.cshtml" expanded="True" />
+                <Node name="Pagina3.cshtml" expanded="True">
+                  <Node name="Pagina3.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Opdracht__2__1 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

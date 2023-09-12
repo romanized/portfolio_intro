@@ -1,0 +1,62 @@
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.csproj.AssemblyReference.cache
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.AssemblyInfoInputs.cache
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.AssemblyInfo.cs
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.csproj.CoreCompileInputs.cache
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.MvcApplicationPartsAssemblyInfo.cache
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.RazorAssemblyInfo.cache
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.RazorAssemblyInfo.cs
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/appsettings.Development.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/appsettings.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/Opdracht 1.1.staticwebassets.runtime.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/Opdracht 1.1
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/Opdracht 1.1.deps.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/Opdracht 1.1.runtimeconfig.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/Opdracht 1.1.dll
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/bin/Debug/net7.0/Opdracht 1.1.pdb
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/staticwebassets/msbuild.Opdracht 1.1.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/staticwebassets/msbuild.build.Opdracht 1.1.props
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Opdracht 1.1.props
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Opdracht 1.1.props
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/staticwebassets.build.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/staticwebassets.development.json
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/scopedcss/bundle/Opdracht 1.1.styles.css
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/scopedcss/projectbundle/Opdracht 1.1.bundle.scp.css
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.dll
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/refint/Opdracht 1.1.dll
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.pdb
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/Opdracht 1.1.genruntimeconfig.cache
+/Users/nebi/Documents/C#2/Oefening1/Oefening1/obj/Debug/net7.0/ref/Opdracht 1.1.dll
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\appsettings.Development.json
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\appsettings.json
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\Opdracht 1.1.staticwebassets.runtime.json
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\Opdracht 1.1.exe
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\Opdracht 1.1.deps.json
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\Opdracht 1.1.runtimeconfig.json
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\Opdracht 1.1.dll
+F:\C#2\Oefening1\Oefening1\bin\Debug\net7.0\Opdracht 1.1.pdb
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.csproj.AssemblyReference.cache
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.AssemblyInfoInputs.cache
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.AssemblyInfo.cs
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.csproj.CoreCompileInputs.cache
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.MvcApplicationPartsAssemblyInfo.cache
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.RazorAssemblyInfo.cache
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.RazorAssemblyInfo.cs
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\staticwebassets\msbuild.Opdracht 1.1.Microsoft.AspNetCore.StaticWebAssets.props
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\staticwebassets\msbuild.build.Opdracht 1.1.props
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Opdracht 1.1.props
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Opdracht 1.1.props
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\staticwebassets.pack.json
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\staticwebassets.build.json
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\staticwebassets.development.json
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\scopedcss\bundle\Opdracht 1.1.styles.css
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\scopedcss\projectbundle\Opdracht 1.1.bundle.scp.css
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.dll
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\refint\Opdracht 1.1.dll
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.pdb
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\Opdracht 1.1.genruntimeconfig.cache
+F:\C#2\Oefening1\Oefening1\obj\Debug\net7.0\ref\Opdracht 1.1.dll

@@ -1,0 +1,31 @@
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/appsettings.Development.json
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/appsettings.json
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/Les 3.staticwebassets.runtime.json
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/Les 3
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/Les 3.deps.json
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/Les 3.runtimeconfig.json
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/Les 3.dll
+/Users/nebi/Desktop/C#2/Les 3/bin/Debug/net7.0/Les 3.pdb
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.csproj.AssemblyReference.cache
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.AssemblyInfoInputs.cache
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.AssemblyInfo.cs
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.csproj.CoreCompileInputs.cache
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.MvcApplicationPartsAssemblyInfo.cache
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.RazorAssemblyInfo.cache
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.RazorAssemblyInfo.cs
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/staticwebassets/msbuild.Les 3.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/staticwebassets/msbuild.build.Les 3.props
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Les 3.props
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Les 3.props
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/staticwebassets.build.json
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/staticwebassets.development.json
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/scopedcss/bundle/Les 3.styles.css
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/scopedcss/projectbundle/Les 3.bundle.scp.css
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.dll
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/refint/Les 3.dll
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.pdb
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/Les 3.genruntimeconfig.cache
+/Users/nebi/Desktop/C#2/Les 3/obj/Debug/net7.0/ref/Les 3.dll

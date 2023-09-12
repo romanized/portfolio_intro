@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{81A62B6F-5311-49DA-AA04-A603202AF233}|https">
+  <MonoDevelop.Ide.ItemProperties.Opdracht_2201.1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Oefening1/Pages/Index.cshtml">
+    <Files>
+      <File FileName="Oefening1/Pages/Index.cshtml.cs" Line="28" Column="47" />
+      <File FileName="Oefening1/Pages/Index.cshtml" Line="30" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Opdracht 1.1" expanded="True">
+            <Node name="Opdracht 1.1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,15 @@
+﻿@page
+@model Opdracht_2_1.Pages.Pagina2Model
+@{
+}
+
+<div class="text-center">
+    <h3 class="display-4">Kies een tweede getal</h3>
+    <br/>
+    <!--Zet hier de linkjes naar pagina 3 -->
+    <span><a href="/Pagina3?getal1=@Model.getal1&getal2=6">6</a></span>
+    <span><a href="/Pagina3?getal1=@Model.getal1&getal2=7">7</a></span>
+    <span><a href="/Pagina3?getal1=@Model.getal1&getal2=8">8</a></span>
+    <span><a href="/Pagina3?getal1=@Model.getal1&getal2=9">9</a></span>
+    <!--Bedenk wel dat je twee parameters moet meesturen: getal1 en getal2-->
+</div>

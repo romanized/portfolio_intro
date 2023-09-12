@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gl2SYqmZbFjlB+HcHoqkc0aeARzZIjhTv/oEtYsBEF9sc4W1mOoNLQqHEs3cNg6HWOOdVajmQFU4ApKRLtbhYw==",
+  "success": true,
+  "projectFilePath": "/Users/nebi/Desktop/C#2/Les 2/Opdracht_2_1/Opdracht_2_1/Opdracht_2_1.csproj",
+  "expectedPackageFiles": [
+    "/Users/nebi/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/nebi/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/nebi/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

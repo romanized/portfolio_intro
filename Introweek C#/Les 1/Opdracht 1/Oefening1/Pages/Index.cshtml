@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>Dit is mijn eerste C# webapplicatie</h1>
+    <p>
+        <a href="/?mijnNaam=Nebi">Mijn Naam</a>
+    </p>
+    <p>
+        <a href="/?mijnStudentnummer=90006">Mijn Studentnummer</a>
+    </p>
+    <p>
+        <a href="/?mijnLeeftijd=17">Mijn Leeftijd</a>
+    </p>
+    @if (Model.mijnNaam != null)
+    {
+        <p>
+            Mijn naam is @Model.mijnNaam
+        </p>
+    }
+    else if (Model.mijnStudentnummer != 0)
+    {
+        <p>
+            Mijn studentennummer is @Model.mijnStudentnummer
+        </p>
+    }
+    else if (Model.mijnLeeftijd != 0)
+    {
+        <p>
+            Mijn leeftijd is @Model.mijnLeeftijd
+        </p>
+    }
+</div>
+

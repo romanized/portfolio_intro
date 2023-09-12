@@ -1,0 +1,23 @@
+﻿@page
+@model WebApplication1.Pages.pagina2Model
+@{
+        ViewData["Title"] = "Oefening 2";
+}
+ 
+<div class="text-center">
+     <h3 class="display-4">Dit is Pagina 2</h3>
+               <p>
+         <a href="/Index?aantalHome=@Model.aantalKeerHome
+                &aantalPagina2=@Model.aantalKeerPagina2
+                &aantalPagina3=@Model.aantalKeerPagina3">Naar Home</a>
+     </p>
+          <p>
+         <a href="/Pagina3?aantalHome=@Model.aantalKeerHome
+                &aantalPagina2=@Model.aantalKeerPagina2
+                &aantalPagina3=@Model.aantalKeerPagina3">Naar Pagina 3</a>
+     </p>
+          <br />
+     <p>Er is @Model.aantalKeerHome keer naar de homepagina gesprongen</p>
+     <p>Er is @Model.aantalKeerPagina2 keer naar de pagina2 gesprongen</p>
+     <p>Er is @Model.aantalKeerPagina3 keer naar de pagina3 gesprongen</p>
+</div>

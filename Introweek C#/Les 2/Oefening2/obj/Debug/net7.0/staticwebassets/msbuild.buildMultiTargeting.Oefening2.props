@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Oefening2.props" />
+</Project>
